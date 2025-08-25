@@ -121,6 +121,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="IR_SwinLine.aspx" />
     <Content Include="pantallaKiteo.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -210,6 +211,13 @@
     <Compile Include="FuncionesMes.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IR_SwinLine.aspx.cs">
+      <DependentUpon>IR_SwinLine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IR_SwinLine.aspx.designer.cs">
+      <DependentUpon>IR_SwinLine.aspx</DependentUpon>
     </Compile>
     <Compile Include="pantallaKiteo.aspx.cs">
       <DependentUpon>pantallaKiteo.aspx</DependentUpon>
